@@ -56,8 +56,8 @@ Visualization Manager:
       Reference Frame: <Fixed Frame>
       Value: true
     - Alpha: 1
-      Axes Length: 0.03099999949336052
-      Axes Radius: 0.009999999776482582
+      Axes Length: 1
+      Axes Radius: 0.10000000149011612
       Class: rviz/Pose
       Color: 255; 25; 0
       Enabled: true
@@ -67,7 +67,7 @@ Visualization Manager:
       Shaft Length: 1
       Shaft Radius: 0.05000000074505806
       Shape: Axes
-      Topic: /camera_pose
+      Topic: /drive_odom_pose
       Unreliable: false
       Value: true
     - Class: rviz/MarkerArray
@@ -121,10 +121,10 @@ Visualization Manager:
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Pitch: 0.6053985357284546
+      Pitch: 0.8953983783721924
       Target Frame: <Fixed Frame>
       Value: Orbit (rviz)
-      Yaw: 4.618579864501953
+      Yaw: 4.618590831756592
     Saved: ~
 Window Geometry:
   Displays:
@@ -142,5 +142,5 @@ Window Geometry:
   Views:
     collapsed: false
   Width: 1822
-  X: 20
-  Y: 32
+  X: 19
+  Y: 6
