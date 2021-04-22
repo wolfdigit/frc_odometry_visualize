@@ -1,0 +1,4 @@
+<launch>
+  <node name="frc_odom_viz" pkg="frc_odometry_visualize" type="frc_odometry_visualize.py" args="10.78.89.2" output="screen" />
+  <node name="rviz" pkg="rviz" type="rviz" args="-d $(find frc_odometry_visualize)/launch/frc_odometry_visualize.rviz" />
+</launch>
